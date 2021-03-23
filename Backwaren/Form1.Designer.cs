@@ -1,7 +1,7 @@
 ﻿
 namespace Backwaren
 {
-    partial class Form1
+    partial class Backwaren
     {
         /// <summary>
         /// Erforderliche Designervariable.
@@ -216,7 +216,7 @@ namespace Backwaren
             this.cbHearty.Text = "Herzhaft";
             this.cbHearty.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // Backwaren
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -240,8 +240,8 @@ namespace Backwaren
             this.Controls.Add(this.dgvSweet);
             this.Controls.Add(this.lblSweet);
             this.Controls.Add(this.cmdLoadData);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Backwaren";
+            this.Text = "Backwaren";
             ((System.ComponentModel.ISupportInitialize)(this.dgvSweet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvHearty)).EndInit();
             this.ResumeLayout(false);

@@ -11,8 +11,9 @@ using System.Data.OleDb;
 
 namespace Backwaren
 {
-    public partial class Form1 : Form
+    public partial class Backwaren : Form
     {
+        Logik logik = new Logik();
         //Connection-Variables
         string query;
         OleDbCommand command;
@@ -20,8 +21,8 @@ namespace Backwaren
         OleDbConnection con;
 
         //DB-Lists
-        List<Backware> listeSuess = new List<Backware>();
-        List<Backware> listeHerzhaft = new List<Backware>();
+        BackwarenListe listeSuess = new BackwarenListe();
+        BackwarenListe listeHerzhaft = new BackwarenListe();
 
         //DB-Variables
         string bezeichnung;
@@ -29,50 +30,14 @@ namespace Backwaren
         int kalorien;
         bool herzhaft;
 
-        public Form1()
+        public Backwaren()
         {
             InitializeComponent();
         }
 
         private void cmdLoadData_Click(object sender, EventArgs e)
         {
-            connectionstring = "Provider = Microsoft.ACE.OLEDB.12.0; Data Source = Backwaren.accdb";
-            con = new OleDbConnection(connectionstring);
-            query = "SELECT * FROM tblBackwaren";
-            
-            //Command to Read the db
-            command = new OleDbCommand(query, con);
-            
-            try
-            {
-                //Open DB
-                con.Open();
-
-                //Execute command
-                OleDbDataReader reader = command.ExecuteReader();
-
-                //Read DB
-                while (reader.Read())
-                {
-                    //Read Data from Row
-                    bezeichnung = reader.GetString(1);
-                    preis = reader.GetDecimal(2);
-                    kalorien = reader.GetInt32(3);
-                    herzhaft = reader.GetBoolean(4);
-
-                    addToList();
-                }
-                DatenAnzeigen();                
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
-            }
-            finally
-            {
-                con.Close();
-            }
-            
+            logik.LoadData();
         }
 
         /// <summary>
@@ -87,24 +52,8 @@ namespace Backwaren
             dgvSweet.DataSource = listeSuess;
 
             //Calculate averge calories
-            txtCaloriesHearty.Text = calculateAverageCalories(listeHerzhaft).ToString();
-            txtCaloriesSweet.Text = calculateAverageCalories(listeSuess).ToString();
-        }
-
-        /// <summary>
-        /// Calculate average Calories
-        /// </summary>
-        /// <param name="backware">Liste der Backwaren</param>
-        /// <returns></returns>
-        private int calculateAverageCalories(List<Backware> backware)
-        {
-            int avergeCalories = 0;
-            for (int i = 0; i < backware.Count; i++)
-            {
-                avergeCalories += backware[i].Kalorien;
-            }
-            avergeCalories /= backware.Count;
-            return avergeCalories;
+            txtCaloriesHearty.Text = listeHerzhaft.Durchschnitt().ToString();
+            txtCaloriesSweet.Text = listeSuess.Durchschnitt().ToString();
         }
 
         private void cmdNewEntry_Click(object sender, EventArgs e)
@@ -166,21 +115,6 @@ namespace Backwaren
             {
                 //Close db
                 con.Close();
-            }
-        }
-
-        /// <summary>
-        /// Add Dataset to List
-        /// </summary>
-        private void addToList()
-        {
-            if (herzhaft == true)
-            {
-                listeHerzhaft.Add(new Backware(bezeichnung, preis, kalorien));
-            }
-            else
-            {
-                listeSuess.Add(new Backware(bezeichnung, preis, kalorien));
             }
         }
     }

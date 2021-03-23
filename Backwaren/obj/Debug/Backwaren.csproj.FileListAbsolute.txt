@@ -1,27 +1,12 @@
-C:\Users\Jan-Niklas\source\repos\Backwaren\Backwaren\bin\Debug\Backwaren.exe.config
-C:\Users\Jan-Niklas\source\repos\Backwaren\Backwaren\bin\Debug\Backwaren.exe
-C:\Users\Jan-Niklas\source\repos\Backwaren\Backwaren\bin\Debug\Backwaren.pdb
-C:\Users\Jan-Niklas\source\repos\Backwaren\Backwaren\obj\Debug\Backwaren.csprojAssemblyReference.cache
-C:\Users\Jan-Niklas\source\repos\Backwaren\Backwaren\obj\Debug\Backwaren.Form1.resources
-C:\Users\Jan-Niklas\source\repos\Backwaren\Backwaren\obj\Debug\Backwaren.Properties.Resources.resources
-C:\Users\Jan-Niklas\source\repos\Backwaren\Backwaren\obj\Debug\Backwaren.csproj.GenerateResource.cache
-C:\Users\Jan-Niklas\source\repos\Backwaren\Backwaren\obj\Debug\Backwaren.csproj.CoreCompileInputs.cache
-C:\Users\Jan-Niklas\source\repos\Backwaren\Backwaren\obj\Debug\Backwaren.exe
-C:\Users\Jan-Niklas\source\repos\Backwaren\Backwaren\obj\Debug\Backwaren.pdb
-C:\Users\Jan-Niklas\Documents\GitHub\Backwaren\Backwaren\obj\Debug\Backwaren.csprojAssemblyReference.cache
-C:\Users\Jan-Niklas\Documents\GitHub\Backwaren\Backwaren\obj\Debug\Backwaren.Form1.resources
-C:\Users\Jan-Niklas\Documents\GitHub\Backwaren\Backwaren\obj\Debug\Backwaren.Properties.Resources.resources
-C:\Users\Jan-Niklas\Documents\GitHub\Backwaren\Backwaren\obj\Debug\Backwaren.csproj.GenerateResource.cache
-C:\Users\Jan-Niklas\Documents\GitHub\Backwaren\Backwaren\obj\Debug\Backwaren.csproj.CoreCompileInputs.cache
-C:\Users\Jan-Niklas\Documents\GitHub\Backwaren\Backwaren\obj\Debug\Backwaren.exe
-C:\Users\Jan-Niklas\Documents\GitHub\Backwaren\Backwaren\obj\Debug\Backwaren.pdb
-C:\src\Backwaren\Backwaren\bin\Debug\Backwaren.exe.config
-C:\src\Backwaren\Backwaren\bin\Debug\Backwaren.exe
-C:\src\Backwaren\Backwaren\bin\Debug\Backwaren.pdb
-C:\src\Backwaren\Backwaren\obj\Debug\Backwaren.csprojAssemblyReference.cache
-C:\src\Backwaren\Backwaren\obj\Debug\Backwaren.Form1.resources
-C:\src\Backwaren\Backwaren\obj\Debug\Backwaren.Properties.Resources.resources
-C:\src\Backwaren\Backwaren\obj\Debug\Backwaren.csproj.GenerateResource.cache
-C:\src\Backwaren\Backwaren\obj\Debug\Backwaren.csproj.CoreCompileInputs.cache
-C:\src\Backwaren\Backwaren\obj\Debug\Backwaren.exe
-C:\src\Backwaren\Backwaren\obj\Debug\Backwaren.pdb
+C:\Users\JNiebisch.DAJCB\Downloads\Backwaren-master\Backwaren-master\Backwaren\bin\Debug\Backwaren.exe.config
+C:\Users\JNiebisch.DAJCB\Downloads\Backwaren-master\Backwaren-master\Backwaren\bin\Debug\Backwaren.exe
+C:\Users\JNiebisch.DAJCB\Downloads\Backwaren-master\Backwaren-master\Backwaren\bin\Debug\Backwaren.pdb
+C:\Users\JNiebisch.DAJCB\Downloads\Backwaren-master\Backwaren-master\Backwaren\obj\Debug\Backwaren.csprojResolveAssemblyReference.cache
+C:\Users\JNiebisch.DAJCB\Downloads\Backwaren-master\Backwaren-master\Backwaren\obj\Debug\Backwaren.Properties.Resources.resources
+C:\Users\JNiebisch.DAJCB\Downloads\Backwaren-master\Backwaren-master\Backwaren\obj\Debug\Backwaren.csproj.GenerateResource.Cache
+C:\Users\JNiebisch.DAJCB\Downloads\Backwaren-master\Backwaren-master\Backwaren\obj\Debug\Backwaren.exe
+C:\Users\JNiebisch.DAJCB\Downloads\Backwaren-master\Backwaren-master\Backwaren\obj\Debug\Backwaren.pdb
+C:\Users\JNiebisch.DAJCB\Downloads\Backwaren-master\Backwaren-master\Backwaren\obj\Debug\Backwaren.Backwaren.resources
+C:\Users\JNiebisch.DAJCB\Downloads\Backwaren-master\Backwaren Masterlösung\Backwaren\bin\Debug\Backwaren.exe.config
+C:\Users\JNiebisch.DAJCB\Downloads\Backwaren-master\Backwaren Masterlösung\Backwaren\obj\Debug\Backwaren.exe
+C:\Users\JNiebisch.DAJCB\Downloads\Backwaren-master\Backwaren Masterlösung\Backwaren\obj\Debug\Backwaren.pdb
